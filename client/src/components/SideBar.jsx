@@ -14,8 +14,6 @@ export default function SideBar() {
             to='/' ><FaHome className='me-2'/> Home </NavLink></li>
             <li><NavLink activeClassName='active' className='text-white rounded py-2 w-100 d-inline-block px-3'
             to='category' > <BiCategory className='me-2'/>Category</NavLink></li>
-            <li><NavLink activeClassName='active' className='text-white rounded py-2 w-100 d-inline-block px-3'
-            to='/all' ><CgDetailsMore className='me-2'/> All</NavLink></li>
           </ul>
         </div>
    
